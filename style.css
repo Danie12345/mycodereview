@@ -1,0 +1,71 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  background-color: purple;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+h1{
+  line-height: 2.4;
+  font-weight: 500;
+  font-size: 48px;
+ 
+}
+
+p {
+  font-size: 25px;
+}
+
+#description-title {
+  margin-bottom: 20px;
+}
+
+#surveyform {
+  width: 100%;
+  margin: 2.500rem auto 0 auto;
+
+}
+
+input, select, textarea {
+  font-size: 35px;
+  margin: 0;
+
+}
+
+.divsInCommon {
+background-color: gray;
+border-color: black;
+padding: 5%;
+margin-top: 5%;
+
+}
+
+label {
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+
+}
+
+.surveyForm{
+  width: 100%;
+  display: block;
+  padding: 5px;
+  background-color: rgb(104, 104, 236);
+}
+
+@media only screen and (max-width: 500px) {
+body {
+  max-width: 50%;
+  background-color: rgb(192, 43, 192);
+}
+h1 {
+  font-size: 10px;
+}
+}
